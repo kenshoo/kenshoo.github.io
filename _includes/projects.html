@@ -2,7 +2,7 @@
 	<h2>Repositories</h2>
 	<ul>
 	{% for repo in site.data.repos %}
-  		<li><a href="{{ repo.html_url }}">{{ repo.name }}</a></li>
+  		<li><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></li>
 	{% endfor %}
 	</ul>
 </section>

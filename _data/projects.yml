@@ -5,3 +5,28 @@
 - name: "gradle-fpm-plugin"
   html_url: "https://github.com/kenshoo/gradle-fpm-plugin"
   description: "A gradle plugin to create linux package (deb/rpm) using fpm"
+
+- name: "android-sdk-demo"
+  html_url: "https://github.com/kenshoo/android-sdk-demo"
+  description: "Demo app for clients implementing Kenshoo's Android SDK"
+
+- name: "ios-sdk-demo"
+  html_url: "https://github.com/kenshoo/ios-sdk-demo"
+  description: "Demo app for clients implementing Kenshoo's iOS SDK"  
+
+- name: "puppet-aws-cloudwatch-tools"
+  html_url: "https://github.com/kenshoo/puppet-aws-cloudwatch-tools"
+  description: "Installs and activates AWS CloudWatch Tools for sending system metrics to CloudWatch console"
+
+- name: "facterj"
+  html_url: "https://github.com/kenshoo/facterj"
+  description: "Utility to generate facter facts from Java"
+
+- name: "flume-rabbitmq-sink"
+  html_url: "https://github.com/kenshoo/flume-rabbitmq-sink"
+  description: "A custom RabbitMQ sink plugin for Apache Flume"
+
+- name: "gradle-liquibase-plugin"
+  html_url: "https://github.com/kenshoo/gradle-liquibase-plugin"
+  description: "A Gradle plugin for Liquibase"
+

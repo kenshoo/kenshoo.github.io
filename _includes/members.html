@@ -2,7 +2,7 @@
 	<h2>Members</h2>
 	<ul>
 		{% for member in site.github.organization_members %}		
-		<li><a href="{{ member.html_url }}"><img src="{{ member.avatar_url }}" alt="{{ member.login }}" /></a></li>
+		<li><a href="{{ member.html_url }}"><img width="40" height="40" src="{{ member.avatar_url }}" alt="{{ member.login }}" /></a></li>
 		{% endfor %}		
 	</ul>
 </section>

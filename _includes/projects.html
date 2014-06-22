@@ -1,7 +1,7 @@
 <section id="projects">
 	<h2>Repositories</h2>
 	<ul>
-	{% for repo in site.github.public_repositories %}
+	{% for repo in site.data.repos %}
   		<li><a href="{{ repo.html_url }}">{{ repo.name }}</a></li>
 	{% endfor %}
 	</ul>

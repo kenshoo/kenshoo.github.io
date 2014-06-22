@@ -1,8 +1,19 @@
 <section id="projects">
-	<h2>Repositories</h2>
-	<ul>
-	{% for repo in site.data.repos %}
-  		<li><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></li>
-	{% endfor %}
-	</ul>
+	<h2>Projects</h2>
+	<div>
+	{% for project in site.data.projects %}
+  		<div class="project">
+  			<div>
+  				<a href="{{ project.html_url }}" target="_blank">{{ project.name }}</a>
+  			</div>
+  			<div>
+  				{{ project.description }}
+  			</div>
+  		</div>
+	{% endfor %}	
+	</div>	
 </section>
+<section id="downloads">
+  <a href="https://github.com/kenshoo" class="btn btn-github"><span class="icon"></span>More projects on GitHub</a>
+</section>
+

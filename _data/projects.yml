@@ -1,0 +1,7 @@
+- name: "metrics-play"
+  html_url: "https://github.com/kenshoo/metrics-play"
+  description: "Metrics module for Play2"
+
+- name: "gradle-fpm-plugin"
+  html_url: "https://github.com/kenshoo/gradle-fpm-plugin"
+  description: "A gradle plugin to create linux package (deb/rpm) using fpm"

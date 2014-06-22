@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../images/1.jpg") 0 0;  
+  background: #151515 url("../images/3.jpg") 0 0;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
@@ -66,6 +66,13 @@ header h2 {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+}
+
+.project {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
 }
 
 #downloads .btn {

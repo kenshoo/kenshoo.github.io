@@ -1,39 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+layout: page
+title: Kenshoo Open Source
+---
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+<div class="container">
+  <img src="images/logo.png"/>
 
-    <title>Kenshoo Open Source</title>
-  </head>
+  <section id="downloads">
+    <a href="https://github.com/kenshoo" class="btn btn-github"><span class="icon"></span>Kenshoo open source projects on GitHub</a>
+  </section>
 
-  <body>
+  {% include projects.html %}
+  {% include members.html %}
 
-      <div class="container">
-        <img src="images/logo.png"/>
-
-        <section id="downloads">
-          <a href="https://github.com/kenshoo" class="btn btn-github"><span class="icon"></span>Kenshoo open source projects on GitHub</a>
-        </section>
-
-        <!-- section id="projects">
-          {% for repo in site.github.public_repositories %}
-            <a href="{{ repo.html_url }}">{{ repo.name }}</a>
-          {% endfor %}
-        </section>
-
-        <section id="people">
-          {% for member in site.github.organization_members %}
-            <img src="{{ member.avatar_url }}" />
-            <a href="{{ member.html_url }}">{{ member.login }}</a>
-          {% endfor %}
-        </section --!>
-      </div>
-
-  </body>
-</html>
-  
+</div>

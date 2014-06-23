@@ -12,11 +12,11 @@
 
 - name: "ios-sdk-demo"
   html_url: "https://github.com/kenshoo/ios-sdk-demo"
-  description: "Demo app for clients implementing Kenshoo's iOS SDK"  
+  description: "Demo app for clients implementing Kenshoo's iOS SDK"
 
 - name: "puppet-aws-cloudwatch-tools"
   html_url: "https://github.com/kenshoo/puppet-aws-cloudwatch-tools"
-  description: "Installs and activates AWS CloudWatch Tools for sending system metrics to CloudWatch console"
+  description: "Installs and activates AWS CloudWatch tools for sending system metrics to CloudWatch console"
 
 - name: "facterj"
   html_url: "https://github.com/kenshoo/facterj"
@@ -29,4 +29,3 @@
 - name: "gradle-liquibase-plugin"
   html_url: "https://github.com/kenshoo/gradle-liquibase-plugin"
   description: "A Gradle plugin for Liquibase"
-

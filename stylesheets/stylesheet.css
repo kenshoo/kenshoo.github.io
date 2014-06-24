@@ -75,6 +75,117 @@ header h2 {
   border-radius: 10px;
 }
 
+footer {
+  width: 100%;
+  float: left;
+}
+
+footer .label {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  line-height: 120%;
+  color: #F6F6F6;
+}
+
+.row {
+  margin-left: 10px;
+  float: left;
+}
+
+.cell {
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.row.cell.right {
+  margin-left: 50px;
+  margin-right: 10px;
+  float: right;
+}
+
+.connectWrapper {
+  float: right;
+  margin-left: 2px;
+  width: 100%;
+}
+
+.productWrapper {
+  float: left;
+  margin-left: 2px;
+  width: 300px;
+}
+
+.productBtn {
+  width: 70px;
+  height: 22px;
+  margin-right: 3px;
+  float:left;
+  background: url(../images/productButtons.png) no-repeat;
+}
+
+.productBtn.search {
+  background-position: -10px -10px;
+}
+
+.productBtn.search:hover {
+  background-position: -11px -126px;
+}
+
+.productBtn.local {
+  background-position: -10px -39px;
+}
+
+.productBtn.local:hover {
+  background-position: -11px -155px;
+}
+
+.productBtn.social:hover {
+  background-position: -11px -185px;
+}
+.productBtn.social {
+  background-position: -10px -69px;
+}
+
+.productBtn.smartpath:hover {
+  background-position: -11px -214px;
+}
+.productBtn.smartpath {
+  background-position: -10px -98px;
+}
+
+.socialBtn {
+  width: 14px;
+  height: 14px;
+  float:left;
+  margin-right: 3px;
+  background: url(../images/socialButtons.png) no-repeat;
+}
+
+.socialBtn:hover {
+  background: url(../images/socialButtonsHover.png) no-repeat;
+}
+
+.socialBtn.facebook {
+  background-position: -10px -10px;
+}
+
+.socialBtn.twitter {
+  background-position: -28px -10px;
+}
+
+.socialBtn.linkedin {
+  background-position: -46px -10px;
+}
+
+.socialBtn.google {
+  background-position: -64px -10px;
+}
+
+.socialBtn.feed {
+  background-position: -82px -10px;
+}
+
+
 #downloads .btn {
   display: inline-block;
   text-align: center;

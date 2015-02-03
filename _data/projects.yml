@@ -29,3 +29,7 @@
 - name: "gradle-liquibase-plugin"
   html_url: "https://github.com/kenshoo/gradle-liquibase-plugin"
   description: "A Gradle plugin for Liquibase"
+
+- name: "swagger-validator"
+  html_url: "https://github.com/kenshoo/swagger-validator"
+  description: "Jax-Rs validator for swagger"

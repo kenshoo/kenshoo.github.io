@@ -26,6 +26,10 @@
   html_url: "https://github.com/kenshoo/flume-rabbitmq-sink"
   description: "A custom RabbitMQ sink plugin for Apache Flume"
 
+- name: "anodot-metrics-bridge"
+  html_url: "https://github.com/kenshoo/anodot-metrics-bridge"
+  description: "Mirrors Dropwizard Metrics Registries (V2 or V3) to Anodot Registries, and reports to Anodot"
+  
 - name: "gradle-liquibase-plugin"
   html_url: "https://github.com/kenshoo/gradle-liquibase-plugin"
   description: "A Gradle plugin for Liquibase"

@@ -41,3 +41,7 @@
 - name: "file-format-streaming-converter"
   html_url: "https://github.com/kenshoo/file-format-streaming-converter"
   description: "A file format converter from xlsx to csv using streaming."
+  
+- name: "python-style-guide"
+  html_url: "https://github.com/kenshoo/python-style-guide"
+  description: "Kenshoo's Python Style Guide, our 2 cents of python experience."

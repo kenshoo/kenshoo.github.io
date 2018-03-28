@@ -45,3 +45,7 @@
 - name: "python-style-guide"
   html_url: "https://github.com/kenshoo/python-style-guide"
   description: "Kenshoo's Python Style Guide, our 2 cents of python experience."
+
+- name: "react-multi-select"
+  html_url: "https://github.com/kenshoo/react-multi-select"
+  description: "A customizable React multi selection component."

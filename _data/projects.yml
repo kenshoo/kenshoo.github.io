@@ -49,3 +49,8 @@
 - name: "react-multi-select"
   html_url: "https://github.com/kenshoo/react-multi-select"
   description: "A customizable React multi selection component."
+
+- name: "persistence-layer"
+  html_url: "https://github.com/kenshoo/persistence-layer"
+  description: "Persist entities with a predefined business flow in high performance."
+
